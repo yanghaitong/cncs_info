@@ -35,6 +35,7 @@
     display: flex;
     line-height: 40px;
     text-align: center;
+    border-radius: 10px 10px 0 0;
 }
 
 .root > .content > .box_content > .deathmatch > .deathmatch_Server > .classify > div > span {
@@ -68,7 +69,8 @@
     padding: 10px;
     display: flex;
     text-align: center;
-    font-family: "btfFont" !important
+    font-family: "btfFont" !important;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .title > .server_name {
@@ -84,7 +86,7 @@
 }
 
 .root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .title:hover {
-    background-color: #f1f2f6;
+    background-color: #ced6e0;
 }
 
 .root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .server_one_box {
