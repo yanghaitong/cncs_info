@@ -1,0 +1,106 @@
+body {
+    background-color: #f0f2f5;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+/*
+    导航栏
+*/
+.root > .nav {
+    height: 60px;
+    background-color: #FFF;
+    display: flex;
+}
+
+.root > .nav > .logo {
+    max-width: 160px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.root > .nav > .logo > a img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.root > .nav > .logo > a h1 {
+    font-weight: 100;
+    font-size: 19px;
+    display: inline-block;
+    line-height: 60px;
+}
+
+
+.root > .nav > .tab_content {
+    line-height: 60px;
+    margin-left: 50px;
+}
+
+.root > .nav > .tab_content ul li {
+    float: left;
+    padding: 0 13px;
+}
+
+
+.root > .nav > .tab_content ul > li > a {
+    color: #000;
+    font-weight: 500 !important;
+    font-size: 15px;
+}
+
+.root > .nav > .tab_content ul li a:hover {
+    color: #1890FF;
+    border-bottom: 2px solid #1890FF;
+    padding-bottom: 19px;
+}
+
+/**
+    导航栏选择转态 Selected
+ */
+.root > .nav > .tab_content ul > li > .Selected {
+    color: #1890FF;
+    border-bottom: 2px solid #1890FF;
+    padding-bottom: 19px;
+}
+
+/*
+ 下拉菜单
+*/
+.root > .nav > .tab_content ul > .menu {
+    position: relative;
+}
+
+.root > .nav > .tab_content ul > .menu > .Drop {
+    width: 120px;
+    position: absolute;
+    right: -45px;
+    top: 61px;
+    overflow: hidden;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: none;
+}
+
+.root > .nav > .tab_content ul > .menu:hover > .Drop {
+    display: block;
+}
+
+.root > .nav > .tab_content ul > .menu > .Drop > ul li {
+    line-height: 40px;
+    text-align: center;
+    float: none;
+    font-size: 15px;
+}
+
+
+.root > .nav > .tab_content ul > .menu > .Drop > ul li:hover {
+    color: #1890FF;
+    background-color: #dfe4ea;
+    cursor: pointer;
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+    主题部分
+ */
+.root > .content > .box_content {
+    width: 90%;
+    /*height: 300px;*/
+    background-color: #FFF;
+    margin: 40px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.root > .content > .box_content > .deathmatch {
+}
+
+.root > .content > .box_content > .deathmatch > .title_server h1 {
+    font-weight: 700 !important;
+    font-size: 22px;
+    text-align: center;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .classify {
+    width: 85%;
+    height: 40px;
+    margin: 35px auto 0;
+    background-color: #ced6e0;
+    display: flex;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .classify > .server_name {
+    flex: 1;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .classify > .map {
+    flex: 1;
+    border-left: 1px solid #a4b0be;
+    border-right: 1px solid #a4b0be;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .classify > .region {
+    flex: 1;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .title {
+    background-color: #dfe4ea;
+    font-weight: 100;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .title > .server_name {
+    flex: 1;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .title > .map {
+    flex: 1;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .title > .region {
+    flex: 1;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .title:hover {
+    background-color: #f1f2f6;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .server_one_box {
+    height: 0;
+    overflow: hidden;
+    transition: height 1.5s;
+    background-color: #f1f2f6;
+}
