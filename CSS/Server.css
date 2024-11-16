@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import url("public.css");
+
 /**
     主题部分
  */
@@ -32,8 +34,11 @@
     background-color: #ced6e0;
     display: flex;
     line-height: 40px;
-    font-weight: 700;
     text-align: center;
+}
+
+.root > .content > .box_content > .deathmatch > .deathmatch_Server > .classify > div > span {
+    font-weight: 600;
 }
 
 .root > .content > .box_content > .deathmatch > .deathmatch_Server > .classify > .server_name {
@@ -63,6 +68,7 @@
     padding: 10px;
     display: flex;
     text-align: center;
+    font-family: "btfFont" !important
 }
 
 .root > .content > .box_content > .deathmatch > .deathmatch_Server > .shrink > .server_one > .title > .server_name {

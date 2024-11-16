@@ -104,3 +104,9 @@ a, ul {
     background-color: #dfe4ea;
     cursor: pointer;
 }
+
+/*原则上你可以设置多个字体，然后在不同的部位使用不同的字体*/
+@font-face {
+    font-family: btfFont;
+    src: url(https://cdn.jsdelivr.net/gh/huangwb8/bloghelper@latest/fonts/13.woff2) format('woff2')
+}
